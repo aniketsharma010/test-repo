@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .mybutton:hover{
+            background-color: white;
+            
+            color: red;
+        }
+
+        .mybutton{
+            float: right;
+            position: static;
+
+        }
+
+        .dis{
+            text-decoration: line-through;
+        }    
+
+       
+    </style>
+    
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/todolist.js"></script>                   
+</head>
+<body>
+    <h1 class="text-center my-4">ToDo List</h1>
+    <div class="container">
+        <div class="row">
+            <input id="newtask" type="text" class="form-control col mx-2">
+            <button id="addbtn"  type="button" class="btn btn-primary col-2 mx-2 mybutton">Enter</button>
+            <button id="clrbtn"  type="button" class="btn btn-primary col-2 mx-2 mybutton">Clear</button>
+            <button id="srtbtn"  type="button" class="btn btn-primary col-2 mx-2 mybutton">Sort</button>
+        </div>
+    
+        
+        <ul id="tasklist" class="list-group row my-2">
+            
+        </ul>
+        
+    </div>
+
+</body>
+</html>
